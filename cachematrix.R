@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
      set <- function(cmat) {
        x <<- cmat
        cachedinvrse <<- NULL
-     }  
+     }
      #get the prev stored matrix obj key(x)
      get <- function() x
      #set mean of the matrix obj key(x)
