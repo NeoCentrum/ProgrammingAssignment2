@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
      }
      #get the prev stored matrix obj key(x)
      get <- function() x
-     #set mean of the matrix obj key(x)
+     #set mean of the matrix obj key(x) 
      setinvrse <- function(invrse) cachedinvrse <<- invrse
      #get the cached mean for matrix obj key(x)
      getinvrse <- function() cachedinvrse
