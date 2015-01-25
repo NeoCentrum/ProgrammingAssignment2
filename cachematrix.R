@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
      #reset the prev stored matrix obj key (x)
      set <- function(cmat) {
        x <<- cmat
-       cachedinvrse <<- NULL
+       cachedinvrse <<- NULL  
      }
      #get the prev stored matrix obj key(x)
      get <- function() x
